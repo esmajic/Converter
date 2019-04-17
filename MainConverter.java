@@ -11,7 +11,6 @@ public class MainConverter {
 		Scanner input = new Scanner(System.in);
 
 		int option;
-		double userInput;
 
 		do {
 			System.out.println();
