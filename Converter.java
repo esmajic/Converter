@@ -3,14 +3,9 @@ package Converter;
 public class Converter {
 
 	private int userInput;
-	
-	
-	Converter(int userInput){
-		this.userInput = usreInput;
-	}
 
-	public int getA() {
-		return a;
+	Converter(int userInput) {
+		this.userInput = userInput;
 	}
 
 	public int getUserInput() {
@@ -26,5 +21,4 @@ public class Converter {
 		return "Converter [userInput=" + userInput + "]";
 	}
 
-	
 }
