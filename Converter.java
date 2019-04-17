@@ -2,33 +2,29 @@ package Converter;
 
 public class Converter {
 
-	private int a;
-	private int b;
+	private int userInput;
 	
-	Converter(int a, int b){
-		this.a = a;
-		this.b = b;
+	
+	Converter(int userInput){
+		this.userInput = usreInput;
 	}
 
 	public int getA() {
 		return a;
 	}
 
-	public void setA(int a) {
-		this.a = a;
+	public int getUserInput() {
+		return userInput;
 	}
 
-	public int getB() {
-		return b;
-	}
-
-	public void setB(int b) {
-		this.b = b;
+	public void setUserInput(int userInput) {
+		this.userInput = userInput;
 	}
 
 	@Override
 	public String toString() {
-		return "Converter [varijabla a=" + a + ", varijabla b=" + b + "]";
+		return "Converter [userInput=" + userInput + "]";
 	}
+
 	
 }
